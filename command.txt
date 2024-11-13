@@ -1,3 +1,4 @@
 START= nohup node kode.js
 SEARCH PROSES= ps aux | grep nohup
+AUTO SEARCH= pgrep -f kode.js
 STOP= kill -9 {id}
